@@ -45,7 +45,7 @@ server_process = None
 
 def start_server():
     global server_process
-    print 'To start the server, and wait for 3 seconds to set up...'
+    print 'To start the server, and wait for 5 seconds to set up...'
     sys.stdout.flush()
     test_env = os.environ.copy()
     test_env['PROXY_ADDR'] = 'https://secure.uku.im:993'
